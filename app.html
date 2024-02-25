@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    
+    <main>
+
+        <div class="expense-section">
+            <h3 class="title">Expense Tracker</h3>
+
+            <div class="balance-box">
+                <h4>Your Balance</h4>
+                <strong id="balance">$0.00</strong>
+            </div>
+
+            <div class="expense-box">
+                <div class="expense-box-item profit">
+                    <strong>income</strong>
+                    <span id="profitBox">$0.00</span>
+                </div>
+
+                <div class="expense-box-item loss">
+                    <strong>Cost</strong>
+                    <span id="lossBox">$0.00</span>
+                </div>
+            </div>
+
+            <h4>Operations</h4>
+            <ul class="operation-list">
+            </ul>
+
+            <h4>Add A New Operation</h4>
+            <div class="operation-form">
+                <div class="operation-form-item">
+                    <label>Operation</label>
+                    <input type="text" id="operationName" placeholder="ADD TRANSACTION">
+                </div>
+                <div class="operation-form-item">
+                    <label>Amount</label>
+                    <input type="number" id="operationAmount" placeholder="ENTER THE AMOUNT">
+                </div>
+                <button class="save-btn">SAVE</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer></footer>
+
+    <script src="JAVASCRIPT/app.js"></script>
+</body>
+</html>
